@@ -14,9 +14,18 @@ I got interested in programming six months ago. I studied the Python programming
 - Python (basics)
 - VS Code
 
-## Code Example
+## **Code Example**
 
-console.log("Hello, world!"); 
+```
+def two_sum(numbers, target):
+    d = {}
+    for ind, num in enumerate(numbers):
+        if num in d:
+            return d[num], ind
+        delta = target - num
+        d[delta] = ind
+```
+*** 
 
         
 
