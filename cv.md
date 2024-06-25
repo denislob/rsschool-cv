@@ -15,6 +15,10 @@ I got interested in programming six months ago. I studied the Python programming
 
 ## Code Example
 
+console.log("Hello, world!"); 
+
+        
+
 ## Education
 - RUSSIAN STATE UNIVERSITY FOR THE HUMANITIES
    *  Faculty of Organization Management
