@@ -4,9 +4,10 @@
 - Location: Saint Petersburg
 - E-mail: den.jamin@mail.ru
 - GitHub: (https://github.com/denislob)
+- Discord: denislob (@denislob)
 
 ## About me
-I got interested in programming six months ago. I studied the Python programming language on stepik. In this course I want to learn html css js.
+I got interested in programming six months ago. I studied the Python programming language on stepik. In this course I want to learn html css js. I hope for discipline and the desire to learn new things.
 
 
 
@@ -27,7 +28,8 @@ def two_sum(numbers, target):
 ```
 *** 
 
-        
+## Projects
+ Not yet       
 
 ## Education
 - RUSSIAN STATE UNIVERSITY FOR THE HUMANITIES
