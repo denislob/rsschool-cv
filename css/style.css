@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    background-color:rgb(233, 225, 225);
+    background-color:#e9dbdb;
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
     line-height: 28px;
@@ -35,7 +35,7 @@ section {
 
 /* header */
 .header-container {
-    background-color: rgb(48, 48, 71);
+    background-color: #e9dbdb;
     display: flex;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -55,13 +55,12 @@ section {
 }
 
 .nav-link {
-    color: antiquewhite;
-    font-size: larger;
+    color: rgb(68, 40, 4);
+    font-size: 24px;
 }
 
 .nav-link:hover {
     color: blueviolet;
-    font-size: 1.1em;
 }
 
 /* main */
@@ -79,6 +78,16 @@ section {
     background:rgb(84, 114, 128);
     display: flex; 
     align-items: center; 
+}
+
+.ava-container {
+    display: flex;
+    padding: 3px;    
+}
+
+.ava-container img {
+    width: 100%;
+    height: auto;
 }
 
 pre {
@@ -175,13 +184,13 @@ li {
 .footer-container {
     display: flex;
     justify-content:center;
-    background-color: rgb(48, 48, 71);
+    background-color: #e9dbdb;
     align-items: center;
     padding: 25px;
 }
 
 .basement {
-    color:antiquewhite;
+    color:rgb(68, 40, 4);
     font-size: 17px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
@@ -196,13 +205,12 @@ li {
 }
 
 .logo-git {
-    color: antiquewhite;
+    color: rgb(68, 40, 4);
     font-size: 30px;
 }
 
 .logo-git:hover {
     color: blueviolet;
-    font-size: 1.1em;
 }
 
 .logo-rs {
@@ -230,7 +238,7 @@ li {
         flex-direction: column;
     }
 }
-@media (max-width:700px) {
+@media (max-width:676px) {
     body {
         font-size: 16px;
         line-height: 20px;
@@ -252,14 +260,38 @@ li {
         flex-direction: column-reverse;
         padding: 15px;
     }
-    h1 {
-        font-size: 25px;
+    .title {
+        font-size: 35px;
     }
     code {
         font-size: 11px;
         left: 5px;
     }
+    .info-content {
+        padding-left: 0px;
+    }
 }
+
+@media (max-width:454px) {
+    .nav-link {
+        font-size: 20px;
+    }
+    code {
+        font-size: 9px;
+        left: 1px;
+    }
+}
+
+@media (max-width:395px) {
+    .nav-link {
+        font-size: 16px;
+    }
+    code {
+        font-size: 6px;
+        left: 0px;
+    }
+}
+
 
 
 
