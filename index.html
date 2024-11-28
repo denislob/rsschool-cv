@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Denis Lobastov</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header -->
+         <header class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code" class="nav-link">Code</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+             </nav>
+         </header>
+        <!-- main -->
+         <main>
+            <section class="cls-profile">
+                <div class="left-part">
+                    <div class="ava-container">
+                        <img class="my-photo" src="img/ava.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="right-part">
+                    <div class="section-title">
+                        <h1 class="title">Denis Lobastov</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="body-main">
+                <div class="left-part">
+                    <div class="info-content" id="contacts">
+                        <h2 class="section-name">Contacts</h2>
+                        <div class="text-info">
+                            <ul class="section-lst">
+                                <li><em>Location: </em>Saint Petersburg</li>
+                                <li><em>E-mail: </em><b>den.jamin@mail.ru</b></li>
+                                <li><em>GitHub: </em><a href="https://github.com/denislob" target="_blank" class="cnt_git"><b>denislob</b></a></li>
+                                <li><em>Discord: </em><b>denislob (@denislob)</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-content" id="skills">
+                        <h2 class="section-name">Skills</h2>
+                        <div class="text-info">
+                            <ul class="section-lst">
+                                <li class="skill-item">Python (basics)</li>
+                                <li class="skill-item">HTML (basics)</li>
+                                <li class="skill-item">CSS (basics)</li>
+                                <li class="skill-item">JavaScript (basics)</li>
+                                <li class="skill-item">VS Code</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-content" id="language">
+                        <h2 class="section-name">Language</h2>
+                        <div class="text-info">
+                            <ul class="section-lst">
+                                <li><b>Russian (native)</b></li>
+                                <li><b>English (Pre-Intermediate B1)</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-part">
+                    <div class="info-content" id="about">
+                        <h2 class="section-name">About me</h2>
+                        <div class="text-info">
+                            <p><em>I became interested in programming six months ago. I studied the Python programming language on Stepik.</em></p>
+                            <p><em>In the RS School course I want to learn HTML, CSS, Java Script. I hope for discipline and a desire to learn new things.</em></p>
+                        </div>
+                    </div>
+                    <div class="info-content" id="education">
+                        <h2 class="section-name">Education</h2>
+                        <div class="text-info">
+                            <ul class="section-lst">
+                                <li>RUSSIAN STATE UNIVERSITY FOR THE HUMANITIES
+                                    <ul>
+                                        <li>Faculty of Organization Management</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-content" id="code">
+                        <h2 class="section-name">Code Example</h2>
+                        <div class="text-info">
+                            <pre>
+                                <code>
+            def two_sum(numbers, target):
+                d = {}
+                for ind, num in enumerate(numbers):
+                    if num in d:
+                        return d[num], ind
+                    delta = target - num
+                    d[delta] = ind
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                    <div class="info-content" id="projects">
+                        <h2 class="section-name">Projects</h2>
+                        <div class="text-info">
+                            <ul class="section-lst">
+                                <li><a href="https://denislob.github.io/rsschool-cv/" target="_blank" class="proj">My_CV</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         </main>
+         <!-- footer -->
+          <footer class="footer-container">
+            <ul class="basement">
+                <li><a href="https://github.com/denislob" class="logo-git" target="_blank">GitHub</a></li>
+                <li>2024</li>
+                <li><a href="https://rs.school/courses/javascript-ru" target="_blank"><img class="logo-rs" src="img/rs-logo.png" alt="RS-School"></a></li>
+            </ul>
+          </footer>
+    </div>
+</body>
+</html>
